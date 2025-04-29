@@ -10,11 +10,11 @@ Built using **React (frontend)** and **FastAPI (backend)**.
 │
 ├── backend/  （Python FastAPI backend）
 │    ├── main.py   # API
-│    ├── models.py # 数据库模型（游戏、用户分数）
-│    ├── database.py # 数据库连接
+│    ├── models.py # Database Model（Games、Scores）
+│    ├── database.py # Database connection
 │    └── routers/
-│         └── games.py # 游戏列表API
-│         └── scores.py # 分数提交API
+│         └── games.py # Games API
+│         └── scores.py # Scores API
 │
 ├── frontend/  （React frontend）
 │    ├── public/
@@ -24,9 +24,9 @@ Built using **React (frontend)** and **FastAPI (backend)**.
 │            └── GameList.js
 │            └── GamePage.js
 │            └── ScoreBoard.js
-│        ├── games/   # 小游戏文件夹
-│            └── skiing/ （滑雪小游戏）
-│            └── jump/ （跳跃小游戏）
+│        ├── games/   # Game folders
+│            └── skiing/ （Skiing Game）
+│            └── jump/ （Jumping Game）
 │
 └── README.md
 
