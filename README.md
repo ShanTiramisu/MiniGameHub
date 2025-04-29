@@ -64,7 +64,7 @@ pip install fastapi uvicorn
 # Run the backend server
 uvicorn main:app --reload
 ```
-# API will be available at: http://localhost:8000/games
+## API will be available at: http://localhost:8000/games
 
 ### 3. Frontend Setup (React)
 ```bash
@@ -72,4 +72,4 @@ cd ../frontend
 npm install
 npm start
 ```
-# React app will be running at: http://localhost:3000
+## React app will be running at: http://localhost:3000
