@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.cfg
+.env
+
+# Virtual environment
+venv/
+Scripts/
+Lib/
+Include/
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+
