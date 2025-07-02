@@ -22,7 +22,7 @@ function Home() {
       <ul>
         {games.map(game => (
           <li key={game.id} style={{ marginBottom: "20px" }}>
-            <Link to={`/games/${game.id}`}>
+            <Link to={`/games/${game.id}`} className="game-link">
               <strong>{game.name}</strong>
             </Link>
             <p>{game.description}</p>
