@@ -73,3 +73,7 @@ npm install
 npm start
 ```
 ## React app will be running at: http://localhost:3000
+
+
+### 3. Test Automation (Pytest + Selenium)
+
