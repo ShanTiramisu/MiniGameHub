@@ -11,7 +11,3 @@ desktop.ini
 # Pytest HTML report
 report.html
 \assets
-
-# tests folder
-tests/*.log
-tests/__pycache__/
