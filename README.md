@@ -75,5 +75,20 @@ npm start
 ## React app will be running at: http://localhost:3000
 
 
-### 3. Test Automation (Pytest + Selenium)
+### 4. Test Automation (Pytest + Selenium)
+```bash
+cd tests
 
+# install the pytest
+pip install selenium pytest pytest-html
+
+# From the root project directory (not inside tests/), run:
+pytest tests/ --html=report.html
+```
+
+### 5. Open Report
+```bash
+start report.html  # on Windows
+open report.html   # on macOS
+xdg-open report.html  # on Linux
+```
