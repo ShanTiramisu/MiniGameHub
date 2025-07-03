@@ -12,21 +12,26 @@ Built using **React (frontend)** and **FastAPI (backend)**.
 │    ├── main.py   # API
 │    ├── models.py # Database Model（Games、Scores）
 │    ├── database.py # Database connection
-│    └── routers/
-│         └── games.py # Games API
-│         └── scores.py # Scores API
+|    ├── crud.py
+|
 │
 ├── frontend/  （React frontend）
 │    ├── public/
+|    ├── App.js
 │    ├── src/
-│        ├── App.js
-│        ├── components/
-│            └── GameList.js
-│            └── GamePage.js
-│            └── ScoreBoard.js
 │        ├── games/   # Game folders
 │            └── skiing/ （Skiing Game）
-│            └── jump/ （Jumping Game）
+│            └── jump/ （Jumping Game）  
+|        ├── App.js
+|        ├── App.css
+|        ├── index.js
+|        ├── App.test.js
+|        ├── index.css
+|        ├── reportWebVitals.js
+|        ├── setupTests.js
+|        ├── Leaderboard.js
+│        
+|    ├── package.json
 │
 └── README.md
 
