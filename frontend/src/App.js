@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>🎮 Game Collection</h1>
+      <h1>🎮 Game Collections</h1>
       <p>
         <Link to="/leaderboard">🏆 Leaderboard</Link>
       </p>
@@ -38,8 +38,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/games/1" element={<SkiingGame />} />
-        <Route path="/games/2" element={<JumpingGame />} />
+        <Route path="/games/skiinggame" element={<SkiingGame />} />
+        <Route path="/games/jumpinggame" element={<JumpingGame />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </Router>
